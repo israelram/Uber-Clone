@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "type": "aws-sam",
+      "request": "direct-invoke",
+      "name": "uber-clone:slices/navSlice.selectOrigin (nodejs14.x)",
+      "invokeTarget": {
+        "target": "code",
+        "projectRoot": "${workspaceFolder}/",
+        "lambdaHandler": "slices/navSlice.selectOrigin"
+      },
+      "lambda": {
+        "runtime": "nodejs14.x",
+        "payload": {},
+        "environmentVariables": {}
+      }
+    }
+  ]
+}
